@@ -11,7 +11,7 @@ let accountstate
 
 console.log(accountId);
 /*
-prefer not use to vr b/c of issue
+prefer not use to var b/c of issue
  in block scope and functional scope
 
 
