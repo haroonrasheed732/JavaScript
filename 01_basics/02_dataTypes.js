@@ -14,7 +14,7 @@ console.log(age)
 
 
 //2=>bigint => agar num bara hy to ya use karte hn jaise trading or stockmarket m use hota hy
-let bignumber = 11122233445678887667666
+let bignumber = 11122233445678887667666n
 console.log(bignumber)
 
 //3=>string => ""
@@ -45,7 +45,7 @@ let id2 = Symbol("id")
 console.log(id1===id2); //false
 
 //************************************* */
-//non premitive data types
+//non premitive data types(refernce)
 //************************************* */
 
 //1=>object --key value pairs
@@ -55,6 +55,9 @@ let person = {
 };
 console.log(person.name)
 console.log(person.age)
+
+
+//2=>Array --> multiple values ko aek variable m rakhte hn
 
 
 //find type of anything
