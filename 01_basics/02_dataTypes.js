@@ -1,6 +1,10 @@
 "use strict"; //treat all js code as newer version
 
-
+//************************************* */
+//Two category of Data Types
+//1 : primitive data types
+//2 : non primitive data types
+//************************************* */
 
 
 //************************************* */
@@ -10,12 +14,14 @@
 
 //1=>number => 2 to power 53
 let age = 18
-console.log(age)
+console.log("meri age hy",age)
+
+
 
 
 //2=>bigint => agar num bara hy to ya use karte hn jaise trading or stockmarket m use hota hy
 let bignumber = 11122233445678887667666n
-console.log(bignumber)
+console.log("bigint example: "bignumber)
 
 //3=>string => ""
 let name = "haroon"
@@ -58,7 +64,18 @@ console.log(person.age)
 
 
 //2=>Array --> multiple values ko aek variable m rakhte hn
+let fruits = ["Apple","banana","orange"]
+console.log(fruits)
+console.log(fruits.length)
 
 
-//find type of anything
+//3=>Function --> function bhi js m object hota hy
+function introduce(){
+    console.log("My self haroon rasheed")
+}
+introduce();
+
+
+//4=> typeOf Operator -->data check karne ky liye use hota hy
 console.log(typeof"haroon");
+console.log(typeof age)
