@@ -79,3 +79,10 @@ introduce();
 //4=> typeOf Operator -->data check karne ky liye use hota hy
 console.log(typeof"haroon");
 console.log(typeof age)
+
+
+//********************* */
+//1=>stack memory(primitive)---variable declare kiya us ky copy milty hy kuch bhi chage karengy wo copy m change hoga
+//2=>Heap memory(non-primitive)---refernce milta hy or jo bhi chne karengy wo orginal m change hoga
+
+
