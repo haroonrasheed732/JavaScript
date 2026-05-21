@@ -40,3 +40,4 @@ console.log(myDate2)
 console.log(myDate2.getTime())//specific date and time ka time in milliseconds since Jan 1, 1970
 
 console.log(Date.now())
+console.log(Date.parse("2020-01-23T10:30:00"))//specific date and time ka time in milliseconds since Jan 1, 1970    

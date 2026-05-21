@@ -30,6 +30,7 @@ newArr.unshift(1);
 console.log(newArr);
 
 newArr.push(9);
+newArr.push(10);
 console.log(newArr);
 newArr.pop();
 console.log(newArr);
